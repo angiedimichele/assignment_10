@@ -1,0 +1,81 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arimo', 'Verdana', sans-serif;
+  background-color: #FFFFCC;
+}
+div {
+  padding: 1rem;
+  margin: auto;
+}
+
+#special, #special_grandad {
+  max-width: 250px;
+  cursor: pointer;
+  border: 2px dashed #FFFFCC;
+  background-color: #d9ccff;
+  text-align: center;
+  display: block;
+}
+#grandma_jean, #grandad_eugene {
+  text-align: center;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  display: block;
+  max-width: 100%;
+}
+
+#secondgrandmapic {
+  display: block;
+  max-width: 100%;
+}
+
+.byline {
+text-align: center;
+}
+
+.explainer {
+  max-width: 600px;
+  line-height: 1.5rem;
+  margin: 0 auto;
+}
+
+img {
+  cursor: pointer;
+  margin: auto;
+  display: block;
+}
+
+p {
+  padding: 1rem;
+  margin: auto;
+}
+
+#grandma {
+  text-align: center;
+  display: block;
+}
+
+h1 {
+text-align: center;
+display: block;
+}
+
+#caption, #caption_grandad {
+  max-width: 600px;
+  line-height: 1.5rem;
+  margin: 0 auto;
+}
+
+article {
+  max-width: 600px;
+  margin: auto;
+}
+
+@media screen and (max-width: 495px) {
+  article {
+    margin: 1rem;
+  }
+}
